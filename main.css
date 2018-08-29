@@ -236,15 +236,15 @@ PAGE: CONTACT
 }
 
 .contact-info li.phone a{
-  background-image: url('img/phone.png');
+  background-image: url('phone.png');
 }
 
 .contact-info li.mail a{
-  background-image: url('img/mail.png');
+  background-image: url('mail.png');
 }
 
 .contact-info li.twitter a{
-  background-image: url('img/twitter.png');
+  background-image: url('twitter.png');
 }
 
 
