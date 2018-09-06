@@ -4,14 +4,13 @@ GENERAL
 
 body{
 font-family: 'Open Sans', sans-serif;
-background-color: #fff;
+/*background-color: #fff;*/
 
 }
 body, html {
 height: 100%;
 margin: 0;
 }
-
 
 
 .bg {
@@ -21,6 +20,18 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
+
+}
+
+video{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%;, -50%);
+    min-width: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
     
 }
 
@@ -35,6 +46,8 @@ width:95%;
 img {
   max-width: 100%;
 }
+
+
 
 
 /*****************************
@@ -170,11 +183,11 @@ Gallery
 }
 
 #gallery li a p{
-  margin: 0; 
+  margin: 0;
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
-  
+
 }
 
 /*****************************
