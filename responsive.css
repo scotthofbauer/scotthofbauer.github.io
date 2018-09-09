@@ -18,6 +18,8 @@ but the 660px breakpoint will target larger desktop devices.
     float: right;
   }
 
+  
+
 
   /*****************************
   PAGE: PORTFOLIO
@@ -31,16 +33,6 @@ but the 660px breakpoint will target larger desktop devices.
   #gallery li:nth-child(4n){
     clear: left;
     }
-    
-    
-    
-
-    
-    
-
-
-
-
 }
 
 @media screen and (min-width: 660px){
@@ -58,6 +50,7 @@ but the 660px breakpoint will target larger desktop devices.
     text-align: right;
     width: 45%;
   }
+   
 
   #logo {
     float: left;
@@ -82,8 +75,25 @@ but the 660px breakpoint will target larger desktop devices.
 @media only screen and (max-width: 600px) {
 
 nav li{
-    font-size: 0.9em;
+    font-size: 0.8em; 
+    margin:0;
+    padding:0;
+    
 }
+.bg{
+    background-image: url("img/rsz_img_3290.jpg");
+    height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+    
+#logo h2{
+    font-size: 1.5em;
+}
+
 .content h1{
     text-align: center;
     font-size: 3.0em;
