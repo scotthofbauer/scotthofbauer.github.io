@@ -4,8 +4,6 @@ GENERAL
 
 body{
 font-family: 'Open Sans', sans-serif;
-/*background-color: #fff;*/
-
 }
 body, html {
 height: 100%;
@@ -23,18 +21,6 @@ background-attachment: fixed;
 
 }
 
-video{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform:translate(-50%;, -50%);
-    min-width: 100%;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    
-}
-
 a {
 text-decoration: none;
 }
@@ -46,9 +32,6 @@ width:95%;
 img {
   max-width: 100%;
 }
-
-
-
 
 /*****************************
 HEADING
@@ -62,43 +45,14 @@ padding: 5px 0 0 0;
 width:100%;
 }
 
-/* Center's "S/H when screen goes mobile" */
+/* Center's "S/H" when screen goes mobile */
 #logo {
 text-align: center;
 margin: 0;
 }
 
 
-h1 {
-font-family: 'Sans One', sans-serif;
-margin: 15px 0;
-font-size: 1.75em;
-font-weight: normal;
-line-height: 0.8em;
-}
 
-h2 {
-font-family: 'Sans One', sans-serif;
-font-size: 0.75em;
-margin: -5px 0 0;
-font-weight: normal;
-}
-
-
-.content h1{
-font-family: 'Open Sans', sans-serif;
-top: 43%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-position: absolute;
-font-size: 4.0em;
-color:#fff;
-}
-
-br{
-line-height: 80px;
-}
 
 
 /*****************************
@@ -126,6 +80,59 @@ font-weight: 800;
 padding: 15px 10px;
 }
 
+/*****************************
+Homepage Content
+*****************************/
+h1 {
+font-family: 'Sans One', sans-serif;
+margin: 15px 0;
+font-size: 1.75em;
+font-weight: normal;
+line-height: 0.8em;
+}
+
+
+.content h1{
+font-family: 'Open Sans', sans-serif;
+top: 43%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+position: absolute;
+font-size: 4.0em;
+color:#fff;
+}
+
+br{
+line-height: 80px;
+}
+
+.contact-button{
+color: #fff;
+font-size: 1.5em;
+background-color: transparent;
+border-color: #fff;
+border-radius:230px;
+border-width: medium;
+padding: 28px;
+position:absolute;
+left:50%;
+top:58%;
+transform: translate(-50%, -50%);
+
+}
+#contact-list{
+position:absolute;
+left:50%;
+top:65%;
+transform: translate(-50%, -50%);
+margin:0;
+padding: 0;
+}
+#contact-list li{
+    display: inline-block;
+    padding: 10px;
+}
 
 
 
@@ -203,7 +210,6 @@ display: inline-block;
 padding: 15px 25px;
 font-size: 24px;
 cursor: pointer;
-text-align: center;
 text-decoration: none;
 outline: none;
 color: #fff;
@@ -287,6 +293,26 @@ background-image: url('img/twitter.png');
 /*****************************
 Footer
 *****************************/
+.footer-list {
+text-align: center;
+padding: 10px;
+margin: 20px 0 0;
+list-style: none;
+margin: 0 10px;
+padding: 0;
+}
+
+
+.footer-list li{
+display: inline-block;
+}
+
+.footer-list a {
+font-weight: 800;
+padding: 15px 25px;
+margin: 10px
+}
+
 
 footer {
 font-size: 0.75em;
@@ -295,6 +321,7 @@ clear: both;
 padding-top: 50px;
 color:#fff;
 background-color:#737373;
+height:75px;
 }
 
 .social-icon {
