@@ -70,6 +70,13 @@ but the 660px breakpoint will target larger desktop devices.
     .content h1{
         color:#fff;
     }
+    
+    .contact-button{
+        top: 70%;
+    }
+    #contact-list{
+        top: 80%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,7 +96,13 @@ background-size: cover;
 background-attachment: fixed;
 
 }
-    
+    .contact-button{
+        top: 65%;
+    }
+    #contact-list{
+        top: 75%;
+        
+    }
 #logo h2{
     font-size: 1.5em;
 }
