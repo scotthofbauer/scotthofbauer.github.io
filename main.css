@@ -80,6 +80,10 @@ font-weight: 800;
 padding: 15px 10px;
 }
 
+nav a:hover{
+    color:red;
+}
+
 /*****************************
 Homepage Content
 *****************************/
@@ -298,7 +302,7 @@ text-align: center;
 padding: 10px;
 margin: 20px 0 0;
 list-style: none;
-margin: 0 10px;
+margin: 10px 10px;
 padding: 0;
 }
 
@@ -309,10 +313,13 @@ display: inline-block;
 
 .footer-list a {
 font-weight: 800;
-padding: 15px 25px;
+padding: 20px 3px;
 margin: 10px
 }
 
+.footer-list a:hover{
+    color: lightgray;
+}
 
 footer {
 font-size: 0.75em;
@@ -327,7 +334,7 @@ height:75px;
 .social-icon {
 width: 20px;
 height: 20px;
-margin: 0;
+margin: 5px;
 }
 
 .contact-info a{
